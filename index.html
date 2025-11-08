@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Café Lumière — Café & Luz</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HEADER CON LOGO ANIMADO -->
+  <header class="site-header">
+    <div class="logo-container">
+      <div class="cup">
+        <div class="steam">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="bean"></div>
+      </div>
+      <h1 class="logo-text">Café Lumière</h1>
+    </div>
+
+    <nav class="nav" id="nav">
+      <a href="#home">Inicio</a>
+      <a href="#menu">Menú</a>
+      <a href="#galeria">Galería</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <button id="menu-toggle" class="menu-toggle">☰</button>
+  </header>
+
+  <!-- HERO / BIENVENIDA -->
+  <section id="home" class="hero">
+    <div class="hero-left">
+      <h2>Bienvenido a <span class="accent">Café Lumière</span></h2>
+      <p class="lead">Un refugio nocturno de luz y aroma. Cafés de origen, barismo cuidado y momentos que iluminan tu día.</p>
+      <div class="hero-ctas">
+        <a class="btn primary" href="#menu">Ver menú</a>
+        <a class="btn ghost" href="#contacto">Reservar</a>
+      </div>
+      <p class="hours">Abierto hoy · 07:00 — 21:00</p>
+    </div>
+    <div class="hero-right">
+    </div>
+  </section>
+
+  <!-- MENÚ -->
+  <section id="menu" class="menu">
+    <div class="container">
+      <h3>Menú destacado</h3>
+      <div class="menu-grid">
+        <article class="menu-card">
+          <h4>Espresso Doble</h4>
+          <p class="muted">Con cuerpo, notas a chocolate</p>
+          <p class="price">$5.500</p>
+        </article>
+        <article class="menu-card">
+          <h4>Latte Lumière</h4>
+          <p class="muted">Espuma sedosa con toque de vainilla</p>
+          <p class="price">$8.000</p>
+        </article>
+        <article class="menu-card">
+          <h4>Pour Over Origen</h4>
+          <p class="muted">Filtro de origen único, notas frutales</p>
+          <p class="price">$10.000</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section id="galeria" class="gallery">
+    <div class="container">
+      <h3>Galería</h3>
+      <div class="grid">
+        <img src="imagen 5.jpg" alt="cafe 4" class="bio-img">
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section id="nosotros" class="about">
+    <div class="container">
+      <h3>Nuestra filosofía</h3>
+      <p>Café Lumière elige granos de origen, trabaja con tostadores locales y prepara cada bebida con técnica y cariño. Aquí celebramos el encuentro, la lectura y los pequeños grandes momentos.</p>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="contact">
+    <div class="container contact-grid">
+      <div>
+        <h3>Contacto & reservas</h3>
+        <p>Email: <a href="mailto:marcelapaternina243@gmail.com">marcelapaternina243@gmail.com</a></p>
+        <p>WhatsApp: <a class="whatsapp" href="https://wa.me/573014942815?text=Hola%20Café%20Lumière%2C%20quiero%20hacer%20una%20reserva" target="_blank">301 494 2815</a></p>
+      </div>
+      <div class="map-placeholder">
+        <img src="imagen 6.jpg" alt="Interior café" class="bio-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>© <span id="year"></span> Café Lumière — Inis Marcela</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <button class="lb-close">✕</button>
+    <img class="lb-img" alt="">
+  </div>
+
+  <a class="floating-whatsapp" href="https://wa.me/573014942815?text=Hola%20Café%20Lumière%2C%20quiero%20hacer%20un%20pedido" target="_blank">
+    🟢 WhatsApp
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
